@@ -43,7 +43,6 @@ def add_s(arr)
   arr.collect do |str|
     next if str == arr[1]
     str+"s" 
-    arr.insert(1, no_s)
   end
-  
+  arr.insert(1, no_s)
 end
