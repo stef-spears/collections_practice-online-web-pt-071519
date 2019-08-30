@@ -44,6 +44,5 @@ def add_s(arr)
     next if str == arr[1]
     str+"s" 
   end
-  arr.insert(1, no_s)
-  
+  arr.insert(1, no_s).compact
 end
