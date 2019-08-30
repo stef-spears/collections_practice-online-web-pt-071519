@@ -41,8 +41,9 @@ end
 def add_s(arr)
   no_s = arr.slice(1)
   arr.collect do |str|
-    #next if str == arr[1]
+    next if str == arr[1]
     str+"s" 
+    arr.insert(1)
   end
   
 end
