@@ -38,7 +38,7 @@ def sum_array(arr)
   arr.inject {|result, element| result + element}
 end
 
-def add_s(arr)
+def add_s(arr) #very ugly, but it works
   no_s = arr.slice(1)
   arr.collect! do |str|
     next if str == arr[1]
