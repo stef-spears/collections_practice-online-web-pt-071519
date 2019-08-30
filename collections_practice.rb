@@ -42,5 +42,6 @@ def add_s(arr)
   arr.collect do |str|
     next if str == arr[1]
     str+"s" 
+    arr[1] 
   end
 end
