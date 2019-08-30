@@ -45,4 +45,5 @@ def add_s(arr)
     str+"s" 
   end
   arr.insert(1, no_s)
+  
 end
