@@ -40,7 +40,7 @@ end
 
 def add_s(arr)
   no_s = arr.slice(1)
-  arr.collect do |str|
+  arr.collect! do |str|
     next if str == arr[1]
     str+"s" 
   end
