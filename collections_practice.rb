@@ -43,5 +43,5 @@ def add_s(arr)
   arr.collect do |str|
     str+"s" 
   end
-  arr.insert(1)
+  arr.insert(1, no_s)
 end
